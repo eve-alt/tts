@@ -1,9 +1,11 @@
+* {
+    font-family: consolas, monospace;
+}
 body {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
     background: #111;
-    font-family: consolas, monospace;
 }
 .hero {
     width: 100%;
@@ -16,14 +18,18 @@ body {
     z-index: 2;
 }
 .hero h1 {
-    font-family: consolas, monospace;
     font-size: 45px;
     font-weight: 500;
     margin-top: -50px;
     margin-bottom: 50px;
+    background: rgba(255, 255, 255, 0.616);
+    backdrop-filter: blur(10px); 
+    padding: 20px; 
+    border-radius: 20px; 
+    border-color: rgba(255, 255, 255, 0.616);;
+    box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.616);
 }
 textarea {
-    font-family: consolas, monospace;
     width: 600px;
     height: 250px;
     font-size: 18px;
@@ -54,7 +60,6 @@ textarea:focus {
 }
 button {
     color: #fff;
-    font-family: consolas, monospace;
     background: rgba(0, 240, 0, 1);
     box-shadow: 0px 0px 5px 5px rgba(0, 240, 0, 1);
     font-size: 16px;
@@ -76,7 +81,7 @@ select {
     border-color: #111;
     box-shadow: 0px 0px 5px 5px #111;
     flex: 1;
-    color: #000;
+    color: #fff;
     height: 50px;
     padding: 0 20px;
     outline: 0;

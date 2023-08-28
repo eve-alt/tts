@@ -1,17 +1,22 @@
 <html>
     <head>
         <link rel="stylesheet" href="assets/css/style.css">
+        <script type="text/javascript" src="assets/js/glitch/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/js/glitch/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/js/glitch/mdb.min.js"></script>
+        <script type="text/javascript" src="assets/js/glitch/zn.min.js"></script>
     </head>
     <body>
         <canvas id="c"></canvas>
         <div class="hero">
-            <h1>TTS</h1>
+            <h1 class="glitch-label">TTS (Text To Speech)</h1>
             <textarea placeholder="Write anything here..."></textarea>
             <div class="row">
                 <select></select>
-                <button><img src="assets/img/play.png">Listen</button>
+                <button><img src="assets/img/play.png"><span class="glitch-label">Listen</span></button>
             </div>
         </div>
         <script type="text/javascript" src="assets/js/matrix.js"></script>
+        <script type="text/javascript" src="assets/js/tts.js"></script>
     </body>
 </html>
