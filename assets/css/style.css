@@ -1,0 +1,70 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background: #111;
+    font-family: consolas, monospace;
+}
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 2;
+}
+.hero h1 {
+    font-family: consolas, monospace;
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+textarea {
+    font-family: consolas, monospace;
+    width: 600px;
+    height: 250px;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+    color: #000;
+    background-color: rgba(234, 240, 240, 0.616);
+    backdrop-filter: blur(2px);
+    border-color:rgba(234, 240, 240, 0.616);
+    box-shadow: 0px 0px 5px 5px rgba(234, 240, 240, 0.616);
+}
+textarea::placeholder {
+    color:#111;
+    font-size: 19px;
+}
+textarea:focus {
+    outline: none;
+}
+.row {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button {
+    font-family: consolas, monospace;
+    background: rgba(0, 240, 0, 1);
+    box-shadow: 0px 0px 5px 5px rgba(0, 240, 0, 1);
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    border-color: rgba(0, 240, 0, 1);
+    outline: 0;
+    cursor: pointer;
+}
+canvas {
+    position: absolute;
+    z-index: 1;
+}
